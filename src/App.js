@@ -5,10 +5,12 @@ import './Sass/App.scss';
 
 import HomePage from './pages/hompage.component';
 import ShopPage from './pages/shop.component';
+import Header from './components/header.component';
 
 function App() {
   return (
     <div>
+      <Header />
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/shop' component={ShopPage} />

@@ -1,0 +1,7 @@
+.sign-up-form {
+  width: 400px;
+  flex-direction: column;
+}
+.sign-up-form .title {
+  margin: 20px 0;
+}

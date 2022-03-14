@@ -12,10 +12,12 @@
   font-weight: bolder;
   border: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 .custom-button:hover {
   background-color: #fff6f6;
-  color: black;
+  color: #211614;
   border: 1px solid #211614;
 }
 .custom-button.google-sign-in {
@@ -24,5 +26,15 @@
 }
 .custom-button.google-sign-in:hover {
   background-color: #2e6bcc;
+  border: none;
+}
+.custom-button.inverted {
+  background-color: #fff6f6;
+  color: #211614;
+  border: 1px solid #2116148f;
+}
+.custom-button.inverted:hover {
+  background-color: #211614;
+  color: #fff6f6;
   border: none;
 }

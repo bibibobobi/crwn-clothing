@@ -109,7 +109,7 @@ const SHOP_DATA = [
         price: 18,
       },
       {
-        id: 15,
+        id: 36,
         name: 'Brown Cowboy',
         imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
         price: 35,

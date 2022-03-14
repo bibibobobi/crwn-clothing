@@ -6,8 +6,8 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 14px;
-  background-color: black;
-  color: white;
+  background-color: #211614;
+  color: #fff6f6;
   text-transform: uppercase;
   // font-family: 'Open Sans Condensed';
   font-weight: bolder;
@@ -15,14 +15,14 @@
   cursor: pointer;
 
   &:hover {
-    background-color: white;
+    background-color: #fff6f6;
     color: black;
-    border: 1px solid black;
+    border: 1px solid #211614;
   }
 
   &.google-sign-in {
     background-color: #4285f4;
-    color: white;
+    color: #fff6f6;
 
     &:hover {
       background-color: #2e6bcc;
